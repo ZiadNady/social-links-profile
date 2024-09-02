@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+    --font-light: 400;
+    --font-medium: 600;
+    --font-bold: 700;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Grey-900);
+    color: var(--White);
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 250px;
+    background: var(--Grey-800);
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.container .avatar{
+    border-radius: 50%;
+    width: 75px;
+}
+
+.container .name{
+    font-weight: var(--font-bold);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.container .location{
+    color: var(--Green);
+    font-weight: var(--font-medium);
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.container .job{
+    font-weight: var(--font-light);
+    font-size: 12px;
+}
+
+.container .button {
+    background: var(--Grey-700);
+    border-radius: 5px;
+    color: var(--White);
+    border: none;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px 0;
+    font-weight: var(--font-bold);
+}
+
+.container .button:last-child{
+    margin-bottom: 0;
+}
