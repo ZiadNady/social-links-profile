@@ -31,7 +31,7 @@ p{
     align-items: center;
     flex-direction: column;
     margin: auto;
-    width: 250px;
+    width: 350px;
     background: var(--Grey-800);
     border-radius: 10px;
     padding: 35px;
@@ -39,25 +39,25 @@ p{
 
 .container .avatar{
     border-radius: 50%;
-    width: 75px;
+    width: 100px;
 }
 
 .container .name{
     font-weight: var(--font-bold);
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 0;
 }
 
 .container .location{
     color: var(--Green);
     font-weight: var(--font-medium);
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 8px;
 }
 
 .container .job{
     font-weight: var(--font-light);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .container .button {
@@ -66,9 +66,10 @@ p{
     color: var(--White);
     border: none;
     width: 100%;
-    margin-bottom: 12px;
-    padding: 10px 0;
+    margin-bottom: 15px;
+    padding: 15px 0;
     font-weight: var(--font-bold);
+    font-size: 16px;
 }
 
 .container .button:last-child{
