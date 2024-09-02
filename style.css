@@ -39,7 +39,7 @@ p{
 
 .container .avatar{
     border-radius: 50%;
-    width: 100px;
+    width: 90px;
 }
 
 .container .name{
@@ -67,9 +67,9 @@ p{
     border: none;
     width: 100%;
     margin-bottom: 15px;
-    padding: 15px 0;
+    padding: 13px 0;
     font-weight: var(--font-bold);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .container .button:last-child{
